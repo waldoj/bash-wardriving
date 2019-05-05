@@ -9,7 +9,6 @@ There are two ideas here. The first idea is that wardriving programs like Kismet
   - both of the WiFi receivers are queried for available base stations and the germane details about each
   - the current coordinates are retrieved from gpsd
   - all of this data is appended to a text file, including a timestamp and, for each identified base station, an identifier for which of the two WiFi receivers that the data came from
-  That information is appended to a text file, including a timestamp, the identifier for which WiFi receiver that the data came from
 - A post-processor does the following things:
   - identifies the strongest pair of data points for each BSSID
   - identifies the direction of travel for each data point (using the prior and subsequent data points)
